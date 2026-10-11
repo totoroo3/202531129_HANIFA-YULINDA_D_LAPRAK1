@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum - Pendaftaran</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="pendaftaran.html">Pendaftaran</a>
+    </nav>
+
+    <hr />
+    <h2>Form Pendaftaran Praktikum</h2>
+    <form action="" method="post">
+        <table>
+        <tr>
+            <td width="120">Nama Lengkap</td>
+            <td>: 
+                <input type="text" name="nama" /></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td>: 
+                <input type="password" name="pass" /></td>
+        </tr>
+
+        <tr>
+            <td>NIM</td>
+            <td>: 
+                <input type="number" name="nim" /></td>
+        </tr>
+
+        <tr>
+            <td><label for="tgl">Tanggal Lahir</label></td>
+            <td>: <input type="date" name="tgl" id="tgl"></td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:
+                <input type="radio" name="jk" value="L" /> Laki-laki
+                <input type="radio" name="jk" value="P" /> Perempuan 
+            </td>
+        </tr>
+
+        <tr>
+            <td>Minat Bidang</td>
+            <td>:
+                <input type="checkbox" name="minat" value="web" />Web
+                <input type="checkbox" name="minat" value="network" />Jaringan
+                <input type="checkbox" name="minat" value="design/modeling" />Design/Modeling
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Program Studi</td>
+            <td>:
+                <select name="prodi">
+                    <option value="IF">S1 Teknik Informatika</option>
+                    <option value="SI">S1 Sistem Informasi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Alasan Mendaftar</td>
+            <td>:
+                <textarea name="alasan" rows="3" cols="20"></textarea></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Kirim" />
+                <input type="reset" value="Reset" />
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+
+<!-- 202531129_Hanifa Yulinda -->
